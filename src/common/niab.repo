@@ -2,7 +2,7 @@
 name=niab
 enabled=1
 gpgcheck=0
-baseurl=https://STARYNETS:Yarik_5144@ndcrepo.ctbto.org/repository/niab-ctbto/5.0/release/centos-$releasever-$basearch/
+baseurl=https://STARYNETS:Yarik-5144@ndcrepo.ctbto.org/repository/niab-ctbto/5.0/release/centos-$releasever-$basearch/
 failovermethod=priority
 skip_if_unavailable=True
 
@@ -18,7 +18,7 @@ skip_if_unavailable=True
 name=niab-alpha
 enabled=0
 gpgcheck=0
-baseurl=https://STARYNETS:Yarik_5144@ndcrepo.ctbto.org/repository/niab-ctbto/5.0/alpha/centos-$releasever-$basearch/
+baseurl=https://STARYNETS:Yarik-5144@ndcrepo.ctbto.org/repository/niab-ctbto/5.0/alpha/centos-$releasever-$basearch/
 failovermethod=priority
 skip_if_unavailable=True
 
