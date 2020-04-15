@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=dtkpmccbin
+Exec=/opt/ctbto/idc/dtk-pmcc/bin/./dtkpmcc
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+StartupNotify=true
+Actions=NewWindow;
+
+Name[en_US]=geotool.desktop
