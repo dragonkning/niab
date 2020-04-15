@@ -54,7 +54,7 @@ RUN $INST_SCRIPTS/xfce_ui.sh
 ADD ./src/common/xfce/ $HOME/
 
 ### Niab
-COPY niab.repo /etc/yum.repos.d/
+COPY ./src/common/niab.repo /etc/yum.repos.d/
 RUN $INST_SCRIPTS/niab.sh
 
 ### configure startup
