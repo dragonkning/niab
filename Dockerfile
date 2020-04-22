@@ -28,7 +28,7 @@ ENV USER=sysop \
     NO_VNC_HOME=/home/sysop/noVNC \
     VNC_COL_DEPTH=24 \
     VNC_RESOLUTION=1280x1024 \
-    VNC_PW=vncpassword \
+    VNC_PW=ndcuser \
     VNC_VIEW_ONLY=false
 WORKDIR $HOME
 
