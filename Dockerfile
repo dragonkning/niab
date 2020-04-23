@@ -32,7 +32,7 @@ ENV USER=sysop \
     VNC_VIEW_ONLY=false
 WORKDIR $HOME
 
-RUN useradd $USER -d $HOME;
+###RUN useradd $USER -d $HOME;
 ### Add all install scripts for further steps
 ADD ./src/common/install/ $INST_SCRIPTS/
 ADD ./src/centos/install/ $INST_SCRIPTS/
@@ -63,6 +63,6 @@ RUN $INST_SCRIPTS/libnss_wrapper.sh
 ADD ./src/common/scripts $STARTUPDIR
 RUN $INST_SCRIPTS/set_user_permission.sh $STARTUPDIR $HOME
 
-USER 1000
+USER 0
 ENTRYPOINT ["/dockerstartup/vnc_startup.sh"]
 CMD ["--wait"]
